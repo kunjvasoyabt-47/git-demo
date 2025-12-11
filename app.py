@@ -1,1 +1,5 @@
-print("Git is awesome!")
+try: 
+    result = 10/0
+    print(result)
+except ZeroDivisionError: 
+    print("Cannot divide by zero")
